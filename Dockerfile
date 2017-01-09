@@ -27,4 +27,4 @@ WORKDIR /server/csgo
 ADD start.sh /server/csgo/start.sh
 RUN chmod 755 /server/csgo/start.sh
 
-CMD ["/server/csgo/start.sh"]
+CMD /server/csgo/start.sh
